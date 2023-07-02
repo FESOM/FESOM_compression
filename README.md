@@ -56,6 +56,7 @@ On 12 years of CORE2 data, results are:
 |Uncompressed | lz4   | zstd |
 |---------|-------|------|
 | 63.6Gb  | 40.87Gb|36.67Gb|
+<img width="549" alt="Screenshot 2023-07-02 at 21 51 49" src="https://github.com/FESOM/FESOM_compression/assets/3407313/222ee811-55e8-4d37-b9f1-ab3db256a24e">
 
 We diecide to go for `zstd` for now, while `lz4` is something to explore as well.
 
@@ -64,6 +65,7 @@ For 13 years of 3M `D3` mesh:
 |Uncompressed |  zstd | ratio|
 |---------|------|-----------|
 | 2139Gb  | 1327Gb| 0.62|
+<img width="413" alt="Screenshot 2023-07-02 at 21 53 32" src="https://github.com/FESOM/FESOM_compression/assets/3407313/734a0c16-3d35-4e6a-a3fd-5f3dff637cdf">
 
 Additional thing you can do is to provide chunking options, like this:
 
